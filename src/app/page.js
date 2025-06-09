@@ -14,6 +14,7 @@ export default function Home() {
 <main className="min-h-screen bg-gray-50 text-gray-800 px-6 py-12 font-sans">
       <h1 className="text-4xl font-bold mb-4">Hi, I&apos;m Jeralyn 👋</h1>
       <p className="mb-4">Welcome to my portfolio! Check out my work and feel free to reach out.</p>
+      <Link href="/about" className="text-blue-600 underline">About Me</Link>
 
       <Link href="/projects" className="text-blue-600 underline">View My Projects</Link>
 
@@ -36,8 +37,6 @@ export default function Home() {
 
           {/* CARD 1 */}
           <div className="bg-white hover:shadow-xl transition-shadow duration-300 rounded-lg overflow-hidden border border-gray-200">
-
-            <img src="/globe.svg" alt="Globe project" className="w-full h-48 object-contain p-4 bg-gray-100" />
             <div className="p-4">
               <h3 className="text-xl font-semibold mb-2">Sustainable Planet Game</h3>
               <p className="text-gray-600 mb-2">A game built to teach users about drought resilience and resource management.</p>
@@ -48,7 +47,6 @@ export default function Home() {
           {/* CARD 2 */}
           <div className="bg-white hover:shadow-xl transition-shadow duration-300 rounded-lg overflow-hidden border border-gray-200">
 
-            <img src="/file.svg" alt="Dashboard project" className="w-full h-48 object-contain p-4 bg-gray-100" />
             <div className="p-4">
               <h3 className="text-xl font-semibold mb-2">Data Dashboard</h3>
               <p className="text-gray-600 mb-2">Interactive dashboard using Power BI to visualize marketing performance metrics.</p>
@@ -59,7 +57,6 @@ export default function Home() {
           {/* CARD 3 */}
           <div className="bg-white hover:shadow-xl transition-shadow duration-300 rounded-lg overflow-hidden border border-gray-200">
 
-            <img src="/vercel.svg" alt="UX Redesign" className="w-full h-48 object-contain p-4 bg-gray-100" />
             <div className="p-4">
               <h3 className="text-xl font-semibold mb-2">Website UX Redesign</h3>
               <p className="text-gray-600 mb-2">Heuristic evaluation and redesign of a local restaurant’s online ordering flow.</p>
