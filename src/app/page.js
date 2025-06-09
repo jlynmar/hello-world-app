@@ -60,7 +60,12 @@ export default function Home() {
             <div className="p-4">
               <h3 className="text-xl font-semibold mb-2">Website UX Redesign</h3>
               <p className="text-gray-600 mb-2">Heuristic evaluation and redesign of a local restaurant’s online ordering flow.</p>
-              <img src="/website ss.png" />
+              <img
+                src="/website-ss.png"
+                alt="Website Screenshot"
+                className="w-48 h-auto mx-auto rounded shadow"
+                />
+
               <Link href="/projects/website">View Project</Link>
             </div>
           </div>
