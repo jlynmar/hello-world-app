@@ -61,7 +61,7 @@ export default function Home() {
               <h3 className="text-xl font-semibold mb-2">Website UX Redesign</h3>
               <p className="text-gray-600 mb-2">Heuristic evaluation and redesign of a local restaurant’s online ordering flow.</p>
               <img
-                src="/website-ss.png"
+                src="/website ss.png"
                 alt="Website Screenshot"
                 className="w-48 h-auto mx-auto rounded shadow"
                 />
