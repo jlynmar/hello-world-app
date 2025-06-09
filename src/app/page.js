@@ -16,7 +16,6 @@ export default function Home() {
       <p className="mb-4">Welcome to my portfolio! Check out my work and feel free to reach out.</p>
       <Link href="/about" className="text-blue-600 underline">About Me</Link>
 
-      <Link href="/projects" className="text-blue-600 underline">View My Projects</Link>
 
       <hr className="my-6" />
 
