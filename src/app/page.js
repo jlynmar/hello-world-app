@@ -14,7 +14,7 @@ export default function Home() {
 <main className="min-h-screen bg-gray-50 text-gray-800 px-6 py-12 font-sans">
       <h1 className="text-4xl font-bold mb-4">Hi, I&apos;m Jeralyn 👋</h1>
       <p className="mb-4">Welcome to my portfolio! Check out my work and feel free to reach out.</p>
-      <Link href="/hello-world-app/about">View Project</Link>
+      <Link href="/hello-world-app/about">About me</Link>
 
 
       <hr className="my-6" />
