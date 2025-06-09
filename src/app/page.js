@@ -38,7 +38,7 @@ export default function Home() {
             <div className="p-4">
               <h3 className="text-xl font-semibold mb-2">Sustainable Planet Game</h3>
               <p className="text-gray-600 mb-2">A game built to teach users about drought resilience and resource management.</p>
-              <img src="/garden game.jpg" alt="game Project" className="w-full h-40 object-cover" />
+              <img src="/garden game ss.png" />
               <Link href="/projects/garden">View Project</Link>
             </div>
           </div>
@@ -49,7 +49,7 @@ export default function Home() {
             <div className="p-4">
               <h3 className="text-xl font-semibold mb-2">Data Dashboard</h3>
               <p className="text-gray-600 mb-2">Using Pyhton to visualize marketing performance metrics.</p>
-              <img src="/data ss.jpg" alt="data Project" className="w-full h-40 object-cover" />
+              <img src="/data ss.png" />
               <Link href="/projects/data">View Project</Link>
             </div>
           </div>
@@ -60,7 +60,7 @@ export default function Home() {
             <div className="p-4">
               <h3 className="text-xl font-semibold mb-2">Website UX Redesign</h3>
               <p className="text-gray-600 mb-2">Heuristic evaluation and redesign of a local restaurant’s online ordering flow.</p>
-              <img src="/website ss.jpg" alt="website Project" className="w-full h-40 object-cover" />
+              <img src="/website ss.png" />
               <Link href="/projects/website">View Project</Link>
             </div>
           </div>
